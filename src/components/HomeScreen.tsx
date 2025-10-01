@@ -50,6 +50,8 @@ const HomeScreen: React.FC = () => {
     // Navigate to specific workflow version
     if (sectionId === 'approvals' && itemId === 'approvals-v1') {
       navigate('/approvals/v1')
+    } else if (sectionId === 'approvals' && itemId === 'approvals-v2') {
+      navigate('/approvals/v2')
     }
     // Add more navigation cases as needed
   }
